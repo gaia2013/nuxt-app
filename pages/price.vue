@@ -2,7 +2,7 @@
   <section class="container">
     <h1>{{ message }}</h1>
     <hr>
-    <router-link to="/price">Price Page</router-link>
+    <router-link to="/">Top Page</router-link>
   </section>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   data: function () {
     return {
-      message: 'Hello World!'
+      message: 'Price Page'
     }
   }
 }
